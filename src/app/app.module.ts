@@ -4,9 +4,19 @@ import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
+import { SuccessAlertComponent } from './components/homework-one/successAlert/successAlert.component';
+import { WarningAlertComponent } from './components/homework-one/warningAlert/warningAlert.component';
+import { HomeworkOneComponent } from './components/homework-one/homework-one.component';
+
+import { HeaderComponent } from './components/header/header.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SuccessAlertComponent,
+    WarningAlertComponent,
+    HomeworkOneComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

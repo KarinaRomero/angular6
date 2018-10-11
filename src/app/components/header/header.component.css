@@ -1,0 +1,26 @@
+.nav {
+ background-color: black;
+ height: 70px;
+}
+
+h1 {
+    color: white !important;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+}
+
+.cpolygon {
+    width: 90px !important;
+    width: 70px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(199, 28, 28);
+    background-color: rgb(187, 202, 202);
+    -webkit-clip-path: polygon(100% 0, 80% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 80% 100%, 0 100%, 0 0);
+}

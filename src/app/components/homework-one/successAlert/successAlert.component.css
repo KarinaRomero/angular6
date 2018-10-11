@@ -1,0 +1,27 @@
+.success-element{
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+}
+.success-element:hover{
+    color: white;
+    margin: 0 auto;
+    background-color: #3EB250;
+    animation-name: success-animation;
+    animation-duration: 1.5s;
+}
+
+@keyframes success-animation {
+    0% {
+        background-color: #3EB250;
+    }
+    50% {
+      background-color: #F0CA4D;
+    }
+    70% {
+      background-color: #F0CA4D;
+    }
+    100% {
+        background-color: #3EB250;
+      }
+}

@@ -1,0 +1,27 @@
+.warning-element{
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+}
+.warning-element:hover{
+    color: white;
+    margin: 0 auto;
+    background-color: #CF402D;
+    animation-name: warning-animation;
+    animation-duration: 0.5s;
+}
+
+@keyframes warning-animation {
+    0% {
+        background-color: #CF402D;
+    }
+    50% {
+      background-color: #E37B40;
+    }
+    70% {
+      background-color: #E37B40;
+    }
+    100% {
+        background-color: #CF402D;
+      }
+}
