@@ -1,0 +1,23 @@
+<div class="container homework-style ">
+    <h1>Asignation 2: Data Binding</h1>
+    <hr>
+    <div class="row">
+        <div class="col">
+            <label for="validationCustomUsername">Ingresa tu nombre</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" [(ngModel)]="userName" (input)="changeUserName()" required>
+            </div>
+            </div>
+        <div class="col">
+            <p class= "shake-effect">
+            {{ greeting + userName}}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <button class="btn btn-primary space" [disabled] = "!isEnable" (click) = "resetButton()">Clean</button>
+    </div>
+</div>

@@ -1,10 +1,8 @@
 .warning-element{
-    color: white;
     margin: 0 auto;
     width: 50%;
 }
 .warning-element:hover{
-    color: white;
     margin: 0 auto;
     background-color: #CF402D;
     animation-name: warning-animation;

@@ -1,0 +1,24 @@
+.space {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.shake-effect {
+    animation: shake 5s ease-out infinite;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(0, -4px, 0);
+    }
+    20%, 80% {
+      transform: translate3d(0, 5px, 0);
+    }
+    30%, 50%, 70% {
+      transform: translate3d(0, -10px, 0);
+    }
+    40%, 60% {
+      transform: translate3d(0, 10px, 0);
+    }
+}

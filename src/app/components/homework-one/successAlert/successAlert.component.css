@@ -1,10 +1,8 @@
 .success-element{
-    color: white;
     margin: 0 auto;
     width: 50%;
 }
 .success-element:hover{
-    color: white;
     margin: 0 auto;
     background-color: #3EB250;
     animation-name: success-animation;

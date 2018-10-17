@@ -8,6 +8,8 @@ import { SuccessAlertComponent } from './components/homework-one/successAlert/su
 import { WarningAlertComponent } from './components/homework-one/warningAlert/warningAlert.component';
 import { HomeworkOneComponent } from './components/homework-one/homework-one.component';
 
+import { HomeworkTwoComponent } from './components/homework-two/homework-two.component';
+
 import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
@@ -16,6 +18,7 @@ import { HeaderComponent } from './components/header/header.component';
     SuccessAlertComponent,
     WarningAlertComponent,
     HomeworkOneComponent,
+    HomeworkTwoComponent,
     HeaderComponent
   ],
   imports: [
