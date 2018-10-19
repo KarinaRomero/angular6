@@ -1,0 +1,24 @@
+<div class="container homework-style ">
+    <h1>Asignation 3: Directives</h1>
+    <hr>
+  <div class="row">
+    <div class= colum>
+      <button class="btn btn-primary space"  (click) = "addDetail()">Display Details</button>
+    </div>
+    <div class= colum></div>
+  </div>
+  <div class="row">
+    <div class= colum>
+      <div *ngFor="let detail of details" [ngStyle]="{backgroundColor: getColor(detail)}">
+        <p *ngIf="getType(detail) ;else other" [ngClass]="'white-style'">
+              {{detail}}
+        </p>
+        <ng-template #other>
+          <p [ngClass]="'black-style'" >
+            {{detail}}
+          </p>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>

@@ -10,16 +10,20 @@ import { HomeworkOneComponent } from './components/homework-one/homework-one.com
 
 import { HomeworkTwoComponent } from './components/homework-two/homework-two.component';
 
+import { HomeworkThreeComponent } from './components/homework-three/homework-three.component';
+
 import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
     SuccessAlertComponent,
     WarningAlertComponent,
     HomeworkOneComponent,
     HomeworkTwoComponent,
-    HeaderComponent
+    HomeworkThreeComponent
+
   ],
   imports: [
     BrowserModule,
